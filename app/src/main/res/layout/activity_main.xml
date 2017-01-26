@@ -21,5 +21,29 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="66"
-        android:background="#808080"></LinearLayout>
+        android:background="#808080">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do not Press Me"
+            android:id="@+id/warning"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="#ff0000"
+            android:textColor="#ffffff"
+            android:textSize="72dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+    </LinearLayout>
 </LinearLayout>
